@@ -2,7 +2,7 @@ def myhash(s):
 	a = 0
 	for i, c in enumerate(s):
 		if c.isalpha() :
-			a += 4000000/(54*2**(i-1))*(ord(c)-40)
+			a += 1000000/(54*2**(i-1))*(ord(c)-40)
 		else:
 			a += ord(c)
 
